@@ -1,0 +1,47 @@
+version: '3'
+
+services:
+  master:
+    build:
+      context: ./
+      dockerfile: Dockerfile
+    networks:
+      - cluster-network
+    tty: true
+    container_name: master-node
+  node1:
+    build:
+      context: ./
+      dockerfile: Dockerfile
+    networks:
+      - cluster-network
+    tty: true
+    container_name: node1
+  node2:
+    build:
+      context: ./
+      dockerfile: Dockerfile
+    networks:
+      - cluster-network
+    tty: true
+    container_name: node2
+  node3:
+    build:
+      context: ./
+      dockerfile: Dockerfile
+    networks:
+      - cluster-network
+    tty: true
+    container_name: node3
+  node4:
+    build:
+      context: ./
+      dockerfile: Dockerfile
+    networks:
+      - cluster-network
+    tty: true
+    container_name: node4
+
+networks:
+  cluster-network:
+    driver: bridge
