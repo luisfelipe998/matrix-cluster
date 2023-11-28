@@ -2,7 +2,7 @@
 
 Nesta seção será apresentado os resultados obtidos da multiplicação da matriz com 10000 linhas por 10000 colunas nas configurações de 1 a 5 nodes, com variações no número de processos (oversubscription) em cada configuração. A matriz é inicializada com valores entre 0 e 1 em cada célula.
 
-Foi utilizado um ambiente docker disponibilizando como recursos 1 CPU e 8 GB de RAM da máquina host para a execução da tarefa.
+Foi utilizado um ambiente docker disponibilizando como recursos 1 CPU e 8 GB de RAM da máquina host para a execução da tarefa. Ressalta-se que os testes foram realizados localmente, em um MacBook de uso geral, portanto, os tempos de execução podem variar bastante se forem executados em outro computador, ou se a máquina estiver sob uso intenso de CPU por outros processos no momento da execução.
 
 ## Comparativo
 
