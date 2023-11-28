@@ -1,5 +1,10 @@
 # cluster
 
+**Alunos**:
+- Felipe Drumm
+- Fernando Cipriano
+- Luís Felipe Borsoi
+
 Projeto de um cluster com containers docker para a atividade acadêmica de Arquitetura de computadores II (GB). São subidos 1 a 5 nós (1 master e 4 slaves) para executar um script que calcula uma multiplicação de matriz 10000 x 10000. O resultado é salvo em um arquivo `resultado_matriz.txt` dentro do container master.
 
 Para a comunicação entre os nós do cluster, foi utilizado o MPI através de uma conexão ssh via chaves RSA assinadas.
