@@ -33,6 +33,4 @@ if rank == 0:
     print('Time elasped: ' + str(end) + ' seconds\n')
     print("Matriz Resultante:")
     print(C)
-    f = open("resultado_matriz.txt", "a")
-    C.tofile(f, sep='', format="%s")
-    f.close()
+    np.savetxt("resultado_matriz.txt", C, delimiter=" ", fmt="%s")

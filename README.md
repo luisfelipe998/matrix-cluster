@@ -4,6 +4,10 @@ Projeto de um cluster com containers docker para a atividade acadêmica de Arqui
 
 Para a comunicação entre os nós do cluster, foi utilizado o MPI através de uma conexão ssh via chaves RSA assinadas.
 
+## Repositório
+
+https://github.com/luisfelipe998/matrix-cluster
+
 ## Como rodar
 - É necessário ter o docker instalado na máquina;
 - Rodar `docker compose up --build -d` para subir os containers e configurá-los;
@@ -13,4 +17,4 @@ Para a comunicação entre os nós do cluster, foi utilizado o MPI através de u
 
 ## Resultados das execuções
 
-Os resultados das execuções com cada configuração pode ser conferido no arquivo `RESULTADOS.MD`.
+Os resultados das execuções com cada configuração pode ser conferido no arquivo [RESULTADOS.MD](https://github.com/luisfelipe998/matrix-cluster/blob/main/RESULTADOS.md).
